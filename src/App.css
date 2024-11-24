@@ -18,11 +18,73 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 3vw;
+ 
+  font-size: calc(0.1vw + 2vmin);
   color: white;
 }
+
+
+span.divEpisodeID {
+  /* margin-left: -207px; */
+  position: absolute;
+  left: 6vw;
+}
+
+
+.txtInput{
+  height: 3vw;
+  width: 70vw;
+  font-size: 2vw;
+  background-color: aliceblue;
+  text-indent: 3vw;
+  border-radius: 1vw;
+  
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1umw9bq-MuiSvgIcon-root {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 4vw;
+}
+
+span.divReleaseDate {
+  position: absolute;
+  left: 34vw;
+}
+
+select{
+  select#ddlSelect {
+    height: 2vw;
+    width: 8vw;
+    font-size: 1vw;
+    padding: 10px;
+}
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#MovieListHeader:hover {
+  cursor: pointer
+ 
+
+}
+
+select#ddlSelect {
+  height: 2.5vw;
+  font-size: large;
+  border-radius: 8px;
+  padding-left: 1vw;
+  color: gray;
+  font-family: fangsong;
+  font-weight: 100;
+}
+
+
 
 .App-link {
   color: #61dafb;
